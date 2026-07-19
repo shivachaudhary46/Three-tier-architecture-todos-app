@@ -1,0 +1,11 @@
+fastapi 
+uvicorn 
+psycopg2-binary
+fastapi-cli==0.0.5
+sqlalchemy
+pydantic
+pwdlib[argon2]
+pyjwt
+pydantic[email]
+pydantic-settings
+python-multipart

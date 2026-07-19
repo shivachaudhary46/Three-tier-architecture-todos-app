@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="./css/todos.css">
+</head>
+<body>
+
+<div class="container">
+    
+    <div class="header">
+        <h1>Todo App</h1>
+        <button id="logout-btn" class="logout-btn">Logout</button>
+    </div>
+
+    <div class="todo-input">
+        <input type="text" placeholder="Enter a new task">
+        <button>Add</button>
+    </div>
+
+    <ul class="todo-list">
+        
+        <li class="todo-item">
+            <span></span>
+
+            <div class="actions">
+                <button class="edit-btn">Edit</button>
+                <button class="delete-btn">Delete</button>
+            </div>
+        </li>
+
+    </ul>
+
+</div>
+<script type="module" src="./js/todos.js"></script>
+
+</body>
+</html>
